@@ -1,0 +1,14 @@
+services:
+  cashew-importer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+      - ./config/my_categories.json:/app/config/my_categories.json
+      - ./config/keyword_rules.json:/app/config/keyword_rules.json
+      - ./config/ai_classifier_settings.json:/app/config/ai_classifier_settings.json
+      - ./config/accounts.json:/app/config/accounts.json
+      - ./config/email.json:/app/config/email.json
+    # command: --verbose

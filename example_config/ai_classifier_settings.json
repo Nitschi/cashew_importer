@@ -1,0 +1,11 @@
+{
+    "openai": {
+        "api_key": "sk-proj-XYZ",
+        "model": "gpt-4.1-nano"
+    },
+    "category_hints": {
+        "Dining": "'Rest' will often refer to a restaurant.",
+        "Uncategorized": "Leave personal Twint transactions that are ambiguous uncategorized.",
+        "Groceries": "Selecta is a grocery store. `Beck` usually refers to a bakery"
+    }
+} 

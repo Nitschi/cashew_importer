@@ -1,0 +1,10 @@
+{
+    "smtp": {
+        "server": "smtp.example.com",
+        "port": 465,
+        "user": "your-username",
+        "password": "your-password"
+    },
+    "sender": "sender@example.com",
+    "recipient": "recipient@example.com"
+} 

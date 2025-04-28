@@ -1,0 +1,14 @@
+{
+    "accounts": [
+        {
+            "name": "Main Account",
+            "number": "12345678",
+            "weight": 1.0
+        },
+        {
+            "name": "Secondary Account",
+            "number": "87654321",
+            "weight": 0.5
+        }
+    ]
+}
